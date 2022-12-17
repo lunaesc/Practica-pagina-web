@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik+Vinyl&family=Source+Sans+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik+Vinyl&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+
+/*HEARDER SUPERIOR*/
+.header_superior{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo img{
+    width: 50px;
+    filter: invert(1);
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    font-size: 60px;
+    color: blue;
+    
+}
+.search input{
+    width: 300px;
+    padding: 10px ;    
+}
+/*BARRA MENU*/
+.container_menu{
+    width: 100%;
+    height: 70px;
+    background: #023877;
+    padding: 0px 20px;
+}
+.menu {
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+nav{
+    height: 100%;
+}
+nav > ul{
+    height: 100%;
+    display: flex;
+
+}
+nav > ul > li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+nav > ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+nav > ul > li > a:hover{
+    transform: scale(1.1);
+    background: #0074c7;
+}
+
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    justify-content: center;
+}
+
+.container h1 {
+    color: #023877;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    border: 6px solid black;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px solid black;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0,2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0,4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 210px;
+}
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.card .contenido a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
+/*div {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a8cf45;
+    margin: 20px 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px 30px;
+    width: 80px ;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.caja{
+    -webkit-transform: translateX(0);
+    -webkit-transition-duration: 0.5s;
+    
+}
+/*.caja{
+    border-style: solid;
+    border-width: 150px 150px 150px 150px;
+    border-color: blue red orange black;
+    -webkit-transform: translateX(0);
+}
+.caja::before{
+ background: red;
+}
+*/
+/*.triangulo_lateral{
+    content: ;
+
+    -webkit-transition-duration: 0,3s;
+    width: 5%;
+    border-style: solid;
+    border-width: 15px 15px 15px;
+    border-color:
+    red 
+    ;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    margin-top: -15px;
+}
+ .triangulo_lateral:hover::before{
+    left: -13px;
+ }*/

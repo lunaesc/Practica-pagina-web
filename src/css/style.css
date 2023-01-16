@@ -88,7 +88,7 @@ nav > ul > li:first-child:hover > a{
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center center;
-    filter: invert(20);
+    
 }
 
 nav > ul > li > a{
@@ -107,12 +107,23 @@ nav > ul > li > a:hover{
     transform: scale(1.1);
     background: #0074c7;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    
 }
 
 #selected{
     transform: scale(1.1);
     background-color: #0074c7;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    
+}
+nav ul li ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    
 }
 
 .container {

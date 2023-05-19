@@ -86,8 +86,8 @@ nav > ul > li:first-child > a{
 nav > ul > li:first-child:hover > a{
     background-image: url(../img/home-icon-silhouette.png);
     background-size: 24px;
-    background-repeat: no-repeat;
-    background-position: center center;
+    *background-repeat: no-repeat;
+    *background-position: center center;
     
 }
 
